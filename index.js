@@ -9,7 +9,6 @@ class ExpiringList {
 
   add(entry, time=60000) {
     const id = uniqueStr()
-    console.log("ID:", id, this.arr[id], entry)
     this.arr[id] = entry
 
     setTimeout(() => {
