@@ -1,0 +1,30 @@
+{
+  "name": "expiration",
+  "version": "0.0.1",
+  "description": "Expire an entry after a given amount of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlstar/expiration.git"
+  },
+  "keywords": [
+    "cache",
+    "list",
+    "expiration"
+  ],
+  "author": "Madeline Cameron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlstar/expiration/issues"
+  },
+  "homepage": "https://github.com/littlstar/expiration#readme",
+  "dependencies": {
+    "unique-string": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
