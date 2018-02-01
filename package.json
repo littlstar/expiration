@@ -1,6 +1,6 @@
 {
   "name": "expiration",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Expire an entry after a given amount of time",
   "main": "index.js",
   "scripts": {
