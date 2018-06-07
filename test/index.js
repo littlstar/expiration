@@ -42,3 +42,7 @@ test(`list`, t => {
 
   t.is(list[0], 'test')
 })
+
+test('travis fail test', t => {
+  t.fail()
+})
